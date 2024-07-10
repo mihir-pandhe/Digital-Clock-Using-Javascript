@@ -4,7 +4,7 @@ function updateClock() {
     const hours = now.getHours();
     const minutes = now.getMinutes();
     const seconds = now.getSeconds();
-    
+
     clock.textContent = `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
 }
 
